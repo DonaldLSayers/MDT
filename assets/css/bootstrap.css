@@ -4948,12 +4948,10 @@ input[type="button"].btn-block {
 }
 
 .card-hover {
-  filter: saturate(0);
 }
 
 .card-hover:hover {
   transition: all ease 0.2s;
-  filter: saturate(1);
   transform: scale(1.01);
 }
 
