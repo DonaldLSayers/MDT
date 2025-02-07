@@ -4470,10 +4470,12 @@ input[type="button"].btn-block {
 /* line 14, node_modules/bootstrap/scss/_nav.scss */
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem; 
+  color: #d8d8d8;}
   /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+    text-decoration: none; 
+    color: #c8c8c8;}
   /* line 23, node_modules/bootstrap/scss/_nav.scss */
   .nav-link.disabled {
     color: #6c757d; }
