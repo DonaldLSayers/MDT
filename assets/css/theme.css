@@ -1,9 +1,6 @@
 body {
 	padding-top:70px;
 }
-a:hover {
-	text-decoration: none;
-}
 img {
 	max-width: 100%;
 }
@@ -16,18 +13,11 @@ a,.a:hover {
 	margin:0px auto;
 	max-width: 94%;
 }
+
 .border-round-0 {
 	border-radius: 0;
 }
-blockquote {
-    border-left: 7px solid #bd081c;
-    padding-left: 20px;
-    margin-left: 20px;
-    font-style: italic;
-}
-article h1, article h2, article h3, article h4, article h5, article h6 {
-    margin-bottom:1rem;
-}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight:700;
 }
@@ -74,32 +64,10 @@ footer.footer {
 .navbar {
 	padding: 0.5rem 2rem;
 }
-.overlay {
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	height:100%;
-	width:100%;
-	opacity:0;
-	-webkit-transition:.2s ease;
-	transition:.2s ease;
-	background-color: #008CBA;
-}
-.card {
+/* .card {
 	border: 0;
-    transition:ease .1s;
-}
-.card-pin:hover .overlay {
-	opacity:.5;
-	border:5px solid #f3f3f3;
-	-webkit-transition:ease .2s;
-	transition:ease .1s;
-	background-color:#000000;
-	cursor:-webkit-zoom-in;
-	cursor: zoom-in;
-}
+} */
+
 .more {
 	color:white;
 	font-size:14px;
@@ -111,44 +79,15 @@ footer.footer {
 	transform:translate(-20%,-20%);
 	-ms-transform: translate(-50%,-50%);
 }
-.card-pin .card-title {
-	color:#ffffff;
-	text-align:center;
-	font-size:1.2em;
-    margin-bottom:0;
+
+div.card-title {
+  background: white;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 15px 18px;
+  position: relative;
 }
-.card-pin.raco .card-title {
-    text-align: left;
-}
-.notraco {
-    background: #ffffff;
-    color: #333;
-    border: 0;
-    border-top: 0;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    padding: 15px 18px;
-    position: relative;
-}
-.card-pin.raco .notraco .card-title {
-    color: #333;
-    font-size: 1em;
-    font-weight: 700;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-style:normal;
-}
-.card-pin .more a {
-	text-decoration:none;
-	color: #ffffff;
-}
-.card-pin .download a {
-	text-decoration:none;
-	color: #ffffff;
-}
-.card-pin.raco:hover .notraco {
-    background-color: #f0f0f0;
-    transition: all 0.2s;
-}
+
 .social {
 	position:relative;
 	-webkit-transform:translateY(-50%);
@@ -160,37 +99,45 @@ footer.footer {
 article .card-body {
 	padding:1.25rem 2rem;
 }
+
+.pagination {
+	color: black;
+	/* text-align: center; */
+}
+.pagination a {
+	color: black;
+}
+.pagination a:hover {
+	/* background-color:#f1f1f1; */
+	/* color:black; */
+	text-decoration:none;
+}
 .pagination span,.pagination a {
 	padding:7px 18px;
-	border:1px solid #eee;
 	margin-left:-2px;
 	margin-right:-2px;
 	display:inline-block;
 	font-size:14px;
 	font-weight:500;
+  color: white;
 }
 .pagination span.webjeda {
-	background:#bd081c;
-	color:#fff;
-	border:1px solid #bd081c;
+	background:white;
+	color:black;
+  border-radius: 100%;
 }
-.pagination a,.pagination span.prev,.pagination span.next {
-	background-color:#ffffff;
+/* .pagination a,.pagination span.prev,.pagination span.next {
+	background-color:darkgray;
+} */
+span.prev {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
-.pagination {
-	color:#333;
+span.next {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
-.pagination a {
-	color:#bd081c;
-}
-.pagination a:hover {
-	background-color:#f1f1f1;
-	color:#333;
-	text-decoration:none;
-}
-.pagination {
-	text-align: center;
-}
+
 .dropdown-item.active, .dropdown-item:active {
     background-color:transparent;
 }
@@ -225,34 +172,7 @@ article .card-body {
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     font-size:13px;
 }
-.card-pin.raco:hover .wrapcat {
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    -webkit-box-flex-direction: row;
-    -moz-box-flex-direction: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    border-radius:6px;
-     transition: all 0.2s;
-}
-.card-pin.raco:hover i.text-muted {
-    color:#bd081c !Important;
-     transition: all 0.2s;
-    position: relative;
-}
-.card-pin.raco:hover .fa:before {
-    
-}
-.car-pin.raco:hover .fa:before {    
-     -webkit-animation: pulse 2s ease-in;
-    -moz-animation: pulse 2s ease-in;
-     animation: pulse 2s ease-in;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
+
 .pinme {
     position: absolute;
     top: 6px;
