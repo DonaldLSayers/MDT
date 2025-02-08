@@ -13,6 +13,7 @@ content:
        type: date
        options:
          format: datetime
+         time: true
      - name: categories
        label: Categories
        type: text
