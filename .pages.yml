@@ -12,7 +12,7 @@ content:
        label: Date
        type: date
        options:
-         format: datetime
+         format: datetime-local
          time: true
      - name: categories
        label: Categories
