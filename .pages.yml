@@ -11,6 +11,8 @@ content:
      - name: date
        label: Date
        type: date
+       options:
+         format: datetime
      - name: categories
        label: Categories
        type: text
