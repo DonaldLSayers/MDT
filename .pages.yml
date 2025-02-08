@@ -16,7 +16,7 @@ content:
          time: true
      - name: categories
        label: Categories
-       type: string
+       type: text
      - name: metadate
        type: string
        hidden: true
