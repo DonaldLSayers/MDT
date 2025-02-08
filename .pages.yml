@@ -1,4 +1,6 @@
-media: assets/images
+media: 
+  input: assets/images
+  output: MDT/assets/images
 content:
   - name: posts
     label: Posts
