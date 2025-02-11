@@ -30,12 +30,6 @@
     </div> -->
     <a href="{{site.baseurl}}{{post.url}}">
         <img class="card-img" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}">
-        <div class="card-title">
-            <h4>{{ post.title }}</h4>
-            <!-- <div class="more">                
-                <i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i>
-            </div>   -->
-        </div>
     </a>    
     {% endif %}
 </div>
