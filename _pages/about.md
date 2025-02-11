@@ -2,8 +2,9 @@
 title: About
 permalink: "/about.html"
 layout: default
-image: "/assets/images/profile.jpg"
 ---
+<img src="/assets/images/profile.jpg" alt="Profile Picture" width="200"/>
+
 # Morgan Diann Tattoo
 
 ## Bold. Minimalist. Inclusive.
