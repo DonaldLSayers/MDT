@@ -5037,7 +5037,7 @@ div.card-title {
 /* line 122, node_modules/bootstrap/scss/_card.scss */
 .card-img {
   width: 100%;
-  border: calc(1rem - 1px)}
+  border-radius: calc(1rem - 1px);}
 /* line 128, node_modules/bootstrap/scss/_card.scss */
 .card-img-top {
   width: 100%;
