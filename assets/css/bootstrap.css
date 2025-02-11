@@ -64,7 +64,8 @@ html {
 
 /* line 45, node_modules/bootstrap/scss/_reboot.scss */
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
+  display: block; 
+  padding-top: 5px;}
 
 /* line 57, node_modules/bootstrap/scss/_reboot.scss */
 body {
