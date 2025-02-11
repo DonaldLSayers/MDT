@@ -13,4 +13,5 @@ Based in Chattanooga, TN, Morgan specializes in bold, minimalist, stamp-style ta
 Morgan believes tattoos should be for all people. She takes special care to create a comfortable, accommodating experience for clients with disabilities and diverse needs. Your tattoo journey should be as empowering as the art itself.
 
 📍 **Chattanooga, TN**
+
 📅 **[Book an Appointment](https://form.jotform.com/241105819271149)**
