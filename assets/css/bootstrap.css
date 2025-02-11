@@ -6861,7 +6861,7 @@ button.bg-light:focus {
 /* line 6, node_modules/bootstrap/scss/mixins/_background-variant.scss */
 .bg-dark {
   background-image: url(/assets/images/BG.webp); 
-  background-color: #1a1a1a;}
+  background-color: #252525;}
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.bg-dark:hover, a.bg-dark:focus,
