@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  flash:
+    title: Flash
+    output: true
 defaults:
 - scope:
     path: _posts
@@ -17,6 +20,10 @@ defaults:
     path: _pages
   values:
     layout: page
+- scope:
+    path: _flash
+  values:
+    layout: post
 name: Pintereso
 description: Pintereso is a free Jekyll theme for awesome people like you, Pinterest
   like.
