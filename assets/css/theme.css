@@ -433,7 +433,7 @@ a.next {
 
 @media (min-width: 900px) {
   /* line 256, node_modules/bootstrap/scss/_card.scss */
-  .card-columns {
+  .card-columns .app {
     -webkit-column-count: 4;
             column-count: 4;
     -webkit-column-gap: 1.25rem;
@@ -444,7 +444,7 @@ a.next {
 
 @media (min-width: 576px) {
   /* line 256, node_modules/bootstrap/scss/_card.scss */
-  .card-columns {
+  .card-columns .app {
     -webkit-column-count: 3;
             column-count: 3;
     -webkit-column-gap: 1.25rem;
