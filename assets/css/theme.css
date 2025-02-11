@@ -431,7 +431,7 @@ a.next {
   background-color: #f8f8f8;
 }
 
-@media (min-width: 900px) {
+@media (576px >= width) {
   /* line 256, node_modules/bootstrap/scss/_card.scss */
   .card-columns .app {
     -webkit-column-count: 4;
@@ -442,7 +442,7 @@ a.next {
     widows: 1; }
 }
 
-@media (min-width: 576px) {
+@media (576px < width) {
   /* line 256, node_modules/bootstrap/scss/_card.scss */
   .card-columns .app {
     -webkit-column-count: 3;
