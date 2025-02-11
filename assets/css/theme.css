@@ -452,3 +452,7 @@ a.next {
     orphans: 1;
     widows: 1; }
 }
+
+.card-columns.app.taken {
+  opacity: 40%;
+}
