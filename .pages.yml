@@ -18,7 +18,7 @@ content:
        label: Categories
        type: select
        options:
-        values: [flash,oneanddone,taken]
+        values: [flash,one_and_done,taken,work]
      - name: metadate
        type: string
        hidden: true
