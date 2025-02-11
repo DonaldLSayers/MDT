@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: "/about.html"
+permalink: "/about"
 ---
 <img src="/assets/images/profile.jpg" alt="Profile Picture" width="200"/>
 
