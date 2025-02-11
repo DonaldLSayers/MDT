@@ -1,7 +1,10 @@
 ---
-title: About
+title: Morgan Design Tattoo
 permalink: "/about.html"
-image: "/assets/images/image(1).png"
+image: "/assets/images/profile.jpg"
 ---
+# Bold. Minimalist. Inclusive.
+Based in Chattanooga, TN, Morgan specializes in bold, minimalist, stamp-style tattoos that make a statement. Whether you're looking for flash tattoos, pre-made designs, or custom work, Morgan ensures a welcoming and inclusive experience for every client.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Tattooing for Everyone
+Morgan believes tattoos should be for all people. She takes special care to create a comfortable, accommodating experience for clients with disabilities and diverse needs. Your tattoo journey should be as empowering as the art itself.
