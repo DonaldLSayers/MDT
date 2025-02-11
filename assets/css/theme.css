@@ -431,9 +431,9 @@ a.next {
   background-color: #f8f8f8;
 }
 
-@media (576px >= width) {
+@media (1000px >= width) {
   /* line 256, node_modules/bootstrap/scss/_card.scss */
-  .card-columns .app {
+  .card-columns.app {
     -webkit-column-count: 4;
             column-count: 4;
     -webkit-column-gap: 1.25rem;
@@ -442,9 +442,9 @@ a.next {
     widows: 1; }
 }
 
-@media (576px < width) {
+@media (1000px < width > 576px) {
   /* line 256, node_modules/bootstrap/scss/_card.scss */
-  .card-columns .app {
+  .card-columns.app {
     -webkit-column-count: 3;
             column-count: 3;
     -webkit-column-gap: 1.25rem;
