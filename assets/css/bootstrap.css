@@ -4627,7 +4627,9 @@ input[type="button"].btn-block {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
-    padding-left: 0; } }
+    padding-left: 0; } 
+  .navbar-brand {
+    font-size: 1.2rem;}
 
 @media (min-width: 576px) {
   /* line 145, node_modules/bootstrap/scss/_navbar.scss */
