@@ -1,7 +1,6 @@
 ---
 title: About
 permalink: "/about.html"
-layout: default
 ---
 <img src="/assets/images/profile.jpg" alt="Profile Picture" width="200"/>
 
