@@ -8,7 +8,9 @@ description: A great collection of free and premium themes and templates.
     
     <div class="card-columns">        
         {% for post in paginator.posts %}
+        {% if post.categories contains "cool" %}
             {% include card-post.html %}
+        {% endif %}    
         {% endfor %}            
     </div>
 
