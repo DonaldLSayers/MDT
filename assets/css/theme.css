@@ -461,3 +461,9 @@ a.next {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.navbar {
+  padding: 0.5rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
