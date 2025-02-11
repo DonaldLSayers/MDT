@@ -4544,6 +4544,10 @@ input[type="button"].btn-block {
 /* line 42, node_modules/bootstrap/scss/_navbar.scss */
 .navbar-brand {
   display: inline-block;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
