@@ -1,9 +1,12 @@
 ---
-title: Morgan Design Tattoo
+title: About
 permalink: "/about.html"
+layout: default
 image: "/assets/images/profile.jpg"
 ---
-# Bold. Minimalist. Inclusive.
+# Morgan Diann Tattoo
+
+## Bold. Minimalist. Inclusive.
 Based in Chattanooga, TN, Morgan specializes in bold, minimalist, stamp-style tattoos that make a statement. Whether you're looking for flash tattoos, pre-made designs, or custom work, Morgan ensures a welcoming and inclusive experience for every client.
 
 ## Tattooing for Everyone
