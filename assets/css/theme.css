@@ -456,3 +456,8 @@ a.next {
 .card-columns.app.taken {
   opacity: 40%;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
