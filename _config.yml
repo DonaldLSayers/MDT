@@ -1,5 +1,5 @@
 ---
-title: Mdt
+title: Morgan Diann Tattoo
 timezone: UTC
 collections:
   posts:
@@ -24,15 +24,14 @@ defaults:
     path: _flash
   values:
     layout: post
-name: Pintereso
-description: Pintereso is a free Jekyll theme for awesome people like you, Pinterest
+name: Morgan Diann Tattoo
+description: A Chattanooga tattoo artist. Specializing in bold, minimalist, stamp-style tattoos that make a statement.
   like.
 logo: assets/images/logo.png
-favicon: assets/images/logo.png
+favicon: /assets/images/profile.jpg
 baseurl: "/"
-avatar: assets/images/sal.jpg
-disqus: demowebsite
-email: wowthemesnet@gmail.com
+avatar: /assets/images/profile.jpg
+email: mainlinemorgandiann@gmail.com 
 include:
 - _pages
 permalink: "/:title/"

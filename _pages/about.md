@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Morgan
 permalink: "/about"
 ---
 <p align="center">
