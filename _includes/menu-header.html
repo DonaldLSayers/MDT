@@ -3,14 +3,13 @@
 <li class="nav-item">
     <a class="nav-link active" href="{{site.baseurl}}/">Home</a>
 </li>
-<li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}/flash">Flash</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}/one_and_done">One & Done</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}/work">Previous Work</a>
+<li class="nav-item dropdown"></li>
+	<a class="nav-link dropdown-toggle" href="#" id="workDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+	<div class="dropdown-menu" aria-labelledby="workDropdown">
+		<a class="dropdown-item" href="{{site.baseurl}}/flash">Flash</a>
+		<a class="dropdown-item" href="{{site.baseurl}}/one_and_done">One & Done</a>
+		<a class="dropdown-item" href="{{site.baseurl}}/work">Previous Work</a>
+	</div>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="{{site.baseurl}}/about">About</span></a>
