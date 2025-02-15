@@ -10,32 +10,32 @@ description: A Chattanooga tattoo artist. Specializing in bold, minimalist, stam
   
   <!-- New section for three columns -->
   <div class="row">
-    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
+    <div class="col-md-4" style="margin-bottom: 20px;"></div>
       {% assign flash_post = site.posts | where: "categories", "flash" | first %}
       {% if flash_post %}
         <a href="/flash">
           <img src="{{ flash_post.image }}" alt="{{ flash_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
-          <h3>Flash</h3>
+          <h3 style="text-align: center;">Flash</h3>
           <p>Praesent dapibus luctus mi, ac pulvinar justo vestibulum vel. Sed eget quam a magna tempor pellentesque. Aliquam vel lobortis dui, sit amet scelerisque tortor. Nunc purus sem, pharetra non placerat a, sollicitudin et est. Etiam non ipsum ut sem elementum viverra. Curabitur et sagittis sapien, vel lobortis libero. Mauris luctus justo nisi, ut suscipit felis fringilla id.</p>
         </a>
       {% endif %}
     </div>
-    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
+    <div class="col-md-4" style="margin-bottom: 20px;"></div>
       {% assign oneanddone_post = site.posts | where: "categories", "one_and_done" | first %}
       {% if oneanddone_post %}
         <a href="/one_and_done">
           <img src="{{ oneanddone_post.image }}" alt="{{ oneanddone_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
-          <h3>One & Done</h3>
+          <h3 style="text-align: center;">One & Done</h3>
           <p>Praesent dapibus luctus mi, ac pulvinar justo vestibulum vel. Sed eget quam a magna tempor pellentesque. Aliquam vel lobortis dui, sit amet scelerisque tortor. Nunc purus sem, pharetra non placerat a, sollicitudin et est. Etiam non ipsum ut sem elementum viverra. Curabitur et sagittis sapien, vel lobortis libero. Mauris luctus justo nisi, ut suscipit felis fringilla id.</p>
         </a>
       {% endif %}
     </div>
-    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
+    <div class="col-md-4" style="margin-bottom: 20px;"></div>
       {% assign work_post = site.posts | where: "categories", "work" | first %}
       {% if work_post %}
         <a href="/work">
           <img src="{{ work_post.image }}" alt="{{ work_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
-          <h3>Work</h3>
+          <h3 style="text-align: center;">Work</h3>
           <p>Praesent dapibus luctus mi, ac pulvinar justo vestibulum vel. Sed eget quam a magna tempor pellentesque. Aliquam vel lobortis dui, sit amet scelerisque tortor. Nunc purus sem, pharetra non placerat a, sollicitudin et est. Etiam non ipsum ut sem elementum viverra. Curabitur et sagittis sapien, vel lobortis libero. Mauris luctus justo nisi, ut suscipit felis fringilla id.</p>
         </a>
       {% endif %}
