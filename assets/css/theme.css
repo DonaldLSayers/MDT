@@ -467,3 +467,10 @@ a.next {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1.5em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
