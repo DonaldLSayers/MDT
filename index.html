@@ -10,25 +10,25 @@ description: A Chattanooga tattoo artist. Specializing in bold, minimalist, stam
   
   <!-- New section for three columns -->
   <div class="row">
-    <div class="card-img">
-      <h3>Flash</h3>
+    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
       {% assign flash_post = site.posts | where: "categories", "flash" | first %}
       {% if flash_post %}
-        <img src="{{ flash_post.image }}" alt="{{ flash_post.title }}" class="img-fluid">
+        <img src="{{ flash_post.image }}" alt="{{ flash_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
+        <h3>Flash</h3>
       {% endif %}
     </div>
-    <div class="card-img">
-      <h3>One and Done</h3>
+    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
       {% assign oneanddone_post = site.posts | where: "categories", "one_and_done" | first %}
       {% if oneanddone_post %}
-        <img src="{{ oneanddone_post.image }}" alt="{{ oneanddone_post.title }}" class="img-fluid">
+        <img src="{{ oneanddone_post.image }}" alt="{{ oneanddone_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
+        <h3>One and Done</h3>
       {% endif %}
     </div>
-    <div class="card-img">
-      <h3>Work</h3>
+    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
       {% assign work_post = site.posts | where: "categories", "work" | first %}
       {% if work_post %}
-        <img src="{{ work_post.image }}" alt="{{ work_post.title }}" class="img-fluid">
+        <img src="{{ work_post.image }}" alt="{{ work_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
+        <h3>Work</h3>
       {% endif %}
     </div>
   </div>
