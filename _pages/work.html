@@ -1,0 +1,31 @@
+---
+title: Morgan's Previous Work
+permalink: "/work"
+layout: default
+description: A collection of Morgan's previous work.
+---
+
+<div class="container">
+    
+    <div class="card-columns app">        
+      {% for category in site.categories %}
+      {% assign pages_list = category[1] %}
+      {% for post in pages_list %}
+        
+        {% if post.title != null %}
+            {% if group == null or group == post.group %}
+              {% if post.categories contains "work" %}
+                {% include card-post.html %}
+              {% endif %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+      {% endfor %}            
+    </div>
+
+
+</div>    
+  
+</section>
