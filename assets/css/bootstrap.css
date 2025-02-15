@@ -4554,8 +4554,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.3125rem;
   font-size: 1.8rem;
   line-height: inherit;
-  white-space: nowrap; 
-  width: 300px;}
+  white-space: nowrap; }
   /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
