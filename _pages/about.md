@@ -16,4 +16,4 @@ Morgan believes tattoos are a form of self-expression that should be accessible 
 
 📍 **Chattanooga, TN**
 
-📅 **[Book an Appointment](https://form.jotform.com/241105819271149)**
+📅 **[Book an Appointment](https://form.jotform.com/241105819271149)** 
