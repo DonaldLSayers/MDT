@@ -10,21 +10,21 @@ description: A Chattanooga tattoo artist. Specializing in bold, minimalist, stam
   
   <!-- New section for three columns -->
   <div class="row">
-    <div class="col-md-4">
+    <div class="card-img">
       <h3>Flash</h3>
       {% assign flash_post = site.posts | where: "categories", "flash" | first %}
       {% if flash_post %}
         <img src="{{ flash_post.image }}" alt="{{ flash_post.title }}" class="img-fluid">
       {% endif %}
     </div>
-    <div class="col-md-4">
+    <div class="card-img">
       <h3>One and Done</h3>
-      {% assign oneanddone_post = site.posts | where: "categories", "oneanddone" | first %}
+      {% assign oneanddone_post = site.posts | where: "categories", "one_and_done" | first %}
       {% if oneanddone_post %}
         <img src="{{ oneanddone_post.image }}" alt="{{ oneanddone_post.title }}" class="img-fluid">
       {% endif %}
     </div>
-    <div class="col-md-4">
+    <div class="card-img">
       <h3>Work</h3>
       {% assign work_post = site.posts | where: "categories", "work" | first %}
       {% if work_post %}
