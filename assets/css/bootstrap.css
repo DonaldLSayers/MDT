@@ -1983,7 +1983,10 @@ pre {
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     /* line 182, node_modules/bootstrap/scss/_tables.scss */
     .table-responsive-sm > .table-bordered {
-      border: 0; } }
+      border: 0; } 
+  .navbar-brand {
+        font-size: 1.5rem;}
+    }
 
 @media (max-width: 767.98px) {
   /* line 173, node_modules/bootstrap/scss/_tables.scss */
