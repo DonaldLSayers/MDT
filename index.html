@@ -13,22 +13,37 @@ description: A Chattanooga tattoo artist. Specializing in bold, minimalist, stam
     <div class="col-md-4 text-center" style="margin-bottom: 20px;">
       {% assign flash_post = site.posts | where: "categories", "flash" | first %}
       {% if flash_post %}
-        <img src="{{ flash_post.image }}" alt="{{ flash_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
-        <h3>Flash</h3>
+        <a href="/flash"></a>
+          <img src="{{ flash_post.image }}" alt="{{ flash_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
+          <h3>Flash</h3>
+          <p>{{ flash_post.description }}</p>
+        </a>
       {% endif %}
     </div>
     <div class="col-md-4 text-center" style="margin-bottom: 20px;">
       {% assign oneanddone_post = site.posts | where: "categories", "one_and_done" | first %}
       {% if oneanddone_post %}
-        <img src="{{ oneanddone_post.image }}" alt="{{ oneanddone_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
-        <h3>One and Done</h3>
+        <a href="/one_and_done">
+          <img src="{{ oneanddone_post.image }}" alt="{{ oneanddone_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
+          <h3>One & Done</h3>
+          <p>{{ oneanddone_post.description }}</p>
+        </a>
       {% endif %}
     </div>
     <div class="col-md-4 text-center" style="margin-bottom: 20px;">
       {% assign work_post = site.posts | where: "categories", "work" | first %}
       {% if work_post %}
-        <img src="{{ work_post.image }}" alt="{{ work_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
-        <h3>Work</h3>
+        <a href="/work">
+          <img src="{{ work_post.image }}" alt="{{ work_post.title }}" class="img-fluid" style="border-radius: calc(1rem - 1px); margin-bottom: 10px;">
+          <h3>Work</h3>
+          <p>{{ work_post.description }}</p>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+      {% endif %}
+    </div>
+  </div>
       {% endif %}
     </div>
   </div>
