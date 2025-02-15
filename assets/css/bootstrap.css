@@ -4600,7 +4600,7 @@ input[type="button"].btn-block {
 /* line 108, node_modules/bootstrap/scss/_navbar.scss */
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
