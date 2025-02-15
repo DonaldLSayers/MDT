@@ -172,14 +172,14 @@ sup {
 
 /* line 198, node_modules/bootstrap/scss/_reboot.scss */
 a {
-  color: white;
+  color: #fd0100;
   text-decoration: none;
   background-color: transparent;
   /* -webkit-text-decoration-skip: objects; */
 }
   /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 a:hover {
-  color: white;
+  color: #b0aca9;
   text-decoration: none;
   background-color: transparent;
 }
