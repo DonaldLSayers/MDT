@@ -384,7 +384,9 @@ h1, .h1 {
 
 /* line 17, node_modules/bootstrap/scss/_type.scss */
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 2rem; 
+  font-family: "EB Garamond", serif;
+  font-weight: 600;}
 
 /* line 18, node_modules/bootstrap/scss/_type.scss */
 h3, .h3 {
